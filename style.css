@@ -27,7 +27,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.bodyLinks {
+a.bodyLinks {
   color: #000;
   font-family: Latitude;
   font-size: 10px;
@@ -36,6 +36,6 @@ line-height: normal;
   line-height: normal;
   text-decoration-line: underline;
 }
-.bodyLinks:visited {
+a.bodyLinks:visited {
   color: #9C7066;
 }
