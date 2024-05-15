@@ -36,3 +36,6 @@ line-height: normal;
   line-height: normal;
   text-decoration-line: underline;
 }
+.bodyLinks:visited {
+  color: #9C7066;
+}
