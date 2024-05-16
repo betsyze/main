@@ -15,6 +15,7 @@
   
 }
 .div3 {
+  width: 100%;
   flex-direction: column; 
   justify-content: flex-start;
   align-items: flex-start;
@@ -23,11 +24,12 @@
 }
 
 .div4 {
-   flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex
+  width: 100%;
+  flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex
 }
 
 .div5 {
-  width: max-content;
+  width: 100%;
 }
 @media screen and (max-width:350px){
   .div2 {
