@@ -12,10 +12,7 @@
 
 .div2 {
   height: 200px
-  display: inline-flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start; 
   gap: 10px;  
   
 }
@@ -34,17 +31,6 @@
 .div5 {
   width: max-content;
 }
-
-/* text styles here: */
-
-.bodyMidnight {
-  color: #000;
-  font-family: Signifier;
-  font-size: 2vw;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
 @media screen and (max-width:350px){
   .div2 {
     flex-direction:column;
@@ -61,10 +47,21 @@
   }
  }
 
+/* text styles here: */
+
+.bodyMidnight {
+  color: #000;
+  font-family: Signifier;
+  font-size: 14em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .bodySlate {
   color: #5C5C5C;
 font-family: Latitude;
-font-size: 2vw;
+font-size: 12em;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
@@ -73,7 +70,7 @@ line-height: normal;
 a {
   color: #000000;
   font-family: Latitude;
-  font-size: 2vw;
+  font-size: 12em;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -82,7 +79,7 @@ a {
 a:visited {
   color: #9C7066;
    font-family: Latitude;
-  font-size: 2vw;
+  font-size: 12em;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
