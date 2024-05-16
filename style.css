@@ -48,13 +48,14 @@ justify-content: flex-start;
   .div2 {
     flex-direction:column;
     display: block;
+    width: max-width;
   }
  }
 @media screen and (max-width:1024px){
   .div2 {
     flex-direction:row
     display:inline-block;
-    width: max-content;
+    width: 328px;
   }
  }
 
