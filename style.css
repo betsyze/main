@@ -4,16 +4,20 @@
   width: 100%; 
   height: 100%; 
   padding-left: 24px; 
-  padding-right: 24px; padding-top: 48px;  
-  padding-bottom: 48px; background: white; 
+  padding-right: 24px; 
+  padding-top: 48px;  
+  padding-bottom: 48px; 
+  background: white; 
 }
 
 .div2 {
-justify-content: flex-start;
-  align-items: flex-start; 
-  gap: 10px; 
-  display: inline-flex; 
+  height: 200px
+  display: inline-flex;
   flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  gap: 10px;  
+  
 }
 .div3 {
   flex-direction: column; 
