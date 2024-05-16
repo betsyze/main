@@ -38,4 +38,10 @@ a:links {
 }
 a:visited {
   color: #9C7066;
+   font-family: Latitude;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
