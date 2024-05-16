@@ -49,14 +49,14 @@
   .div2 {
     flex-direction:column;
     display: block;
-    width: 328px;
+    width: 330px;
   }
  }
 @media screen and (max-width:1920px){
   .div2 {
     flex-direction:row
     display:inline-block;
-    width: maax-width;
+    width: max-width;
   }
  }
 
