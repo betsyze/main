@@ -10,7 +10,7 @@
 
 .div2 {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row-wrap;
   justify-content: space-between;
   height: 200px
   gap: 10px;  
@@ -45,7 +45,7 @@
   .div2 {
     flex-direction:row
     display:inline-block;
-    width: 330px;
+    width: 400px;
   }
  }
 
