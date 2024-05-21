@@ -4,36 +4,55 @@
   padding-left: 24px; 
   padding-right: 24px; 
   padding-top: 48px;  
-  padding-bottom: 48px; 
-  background: white; 
+  padding-bottom: 48px;
+  max-width: fit-content; 
+  max-height: fit-content;
+  /* background: rgb(231, 231, 243);  */
 }
 
 .div2 {
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  flex-wrap: row-wrap;
-  justify-content: space-between;
-  height: 200px
-  gap: 10px;  
+  /* flex-direction: row; */
+  flex-wrap:wrap;
+  justify-content: left;
+  max-width: 100%;
+  max-height: fit-content;
+  box-sizing: content-box;
+  /* height: fit-content; */
+  gap: 10px;
+  /* background: rgb(250, 159, 255); */
   
 }
 .div3 {
-  width: 100%;
-  flex-direction: column; 
+  min-width: 200px;
+  max-width: 400px;
+  max-height: fit-content;
+  flex-direction: row; 
   justify-content: flex-start;
   align-items: flex-start;
   gap: 10px;
-  display: inline-flex
+  display: inline-flex;
+  /* background: rgb(124, 110, 157); */
 }
 
 .div4 {
-  width: 100%;
-  flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex
+  /* width: 50%; */
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start;
+   gap: 10px; 
+   display: flex;
+  /* background-color: rgb(188, 174, 200); */
 }
 
 .div5 {
   width: 100%;
+  /* background-color: aqua; */
 }
-@media screen and (max-width:350px){
+
+/* @media screen and (max-width:350px){
   .div2 {
     flex-direction:column;
     display: block;
@@ -43,11 +62,11 @@
 
 @media screen and (max-width:1920px){
   .div2 {
-    flex-direction:row
+    flex-direction:row;
     display:inline-block;
     width: 400px;
   }
- }
+ } */
 
 /* text styles here: */
 
@@ -57,6 +76,8 @@
   font-size: 14px;
   font-style: normal;
   line-height: normal;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .bodySlate {
@@ -66,6 +87,14 @@ font-size: 12px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
+text-align: justify;
+text-justify: inter-word;
+}
+
+.hero {
+  width: max-content;
+  max-height: 222px;
+  /* background-color: blue; */
 }
 
 a {
